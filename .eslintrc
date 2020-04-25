@@ -1,0 +1,25 @@
+{
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "prettier", "jest"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module",
+    "modules": true,
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "rules": {
+    "no-plusplus": "off",
+    "no-trailing-spaces": "error",
+    "indent": ["error", 2],
+    "prefer-const": "error",
+    "no-var": "error"
+  }
+}
